@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto"; 
+
+option csharp_namespace = "Weather.Api.Services.gRPC";
+
+package Weather.Api;
+
+service WeatherForecasts {
+	rpc GetWeather(WeatherRequest) returns (WeatherResponse) {}
+}
+
+message WeatherRequest {
+	
+}
+
+message WeatherResponse {
+	repeated WeatherForecastReponse Forecasts = 1;
+}
+
+message WeatherForecastReponse {
+	google.protobuf.Timestamp date = 1;
+	int32 temperaturec = 2;
+	int32 temperaturef = 3;
+	string summary = 4;
+}

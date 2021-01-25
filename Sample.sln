@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{F873F95B-FC8D-40B1-B7C1-94CF79E70A91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{88F6A43D-577C-4092-8621-C320373B1913}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Weather", "Weather", "{871022C0-1448-4447-89F0-59E86E1A5140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{C5D265D5-6D72-4DA6-B1C8-35A9C8E6FCF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "src\Weather.Api\Weather.Api.csproj", "{D1875DC9-0EFB-4750-9C1D-5E172F65E596}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApp.Mvc", "src\WebApp.Mvc\WebApp.Mvc.csproj", "{20A85F03-339F-4CD5-BC59-6EAD71165B30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1875DC9-0EFB-4750-9C1D-5E172F65E596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1875DC9-0EFB-4750-9C1D-5E172F65E596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1875DC9-0EFB-4750-9C1D-5E172F65E596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1875DC9-0EFB-4750-9C1D-5E172F65E596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20A85F03-339F-4CD5-BC59-6EAD71165B30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20A85F03-339F-4CD5-BC59-6EAD71165B30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20A85F03-339F-4CD5-BC59-6EAD71165B30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20A85F03-339F-4CD5-BC59-6EAD71165B30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{871022C0-1448-4447-89F0-59E86E1A5140} = {F873F95B-FC8D-40B1-B7C1-94CF79E70A91}
+		{C5D265D5-6D72-4DA6-B1C8-35A9C8E6FCF0} = {88F6A43D-577C-4092-8621-C320373B1913}
+		{D1875DC9-0EFB-4750-9C1D-5E172F65E596} = {871022C0-1448-4447-89F0-59E86E1A5140}
+		{20A85F03-339F-4CD5-BC59-6EAD71165B30} = {C5D265D5-6D72-4DA6-B1C8-35A9C8E6FCF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10BC952C-C1BB-4C2D-B06B-F9240AC51ACE}
+	EndGlobalSection
+EndGlobal
